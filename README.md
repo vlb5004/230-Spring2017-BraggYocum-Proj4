@@ -30,3 +30,40 @@ become a portfolio sample, not just for design, but also programming within our 
 future employers. We feel strongly about this project and want to create the best project
 
 possible within the 4 weeks, and possibly take it into the summer to expand upon it.
+
+# PARTNER BREAKDOWN
+Starting, we each (Tori and Maddie) have similar, yet varying
+
+skillsets. Both have strong skills in design and will work together to create the overall esthetic,
+
+interface, and illustrations. Also, for the programming we plan to work together and try to figure
+
+out new things we need to learn to achieve our project goals. At the end of the project we will
+
+provide a breakdown of exactly who did what within our commits on Github.
+
+# NEED TO LEARN:
+
+● CSS polygons
+
+● SVG shapes
+
+● Tracing JS function for each illustration assembling
+
+● Overall history and facts about each Wonder of The World
+
+# Wonders:
+
+● Great Pyramid of Giza.
+
+● Hanging Gardens of Babylon.
+
+● Statue of Zeus at Olympia.
+
+● Temple of Artemis at Ephesus.
+
+● Mausoleum at Halicarnassus.
+
+● Colossus of Rhodes.
+
+● Lighthouse of Alexandria.
