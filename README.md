@@ -31,7 +31,7 @@ future employers. We feel strongly about this project and want to create the bes
 
 possible within the 4 weeks, and possibly take it into the summer to expand upon it.
 
-## PARTNER BREAKDOWN
+## Partner Breakdown
 Starting, we each (Tori and Maddie) have similar, yet varying
 
 skillsets. Both have strong skills in design and will work together to create the overall esthetic,
@@ -42,7 +42,7 @@ out new things we need to learn to achieve our project goals. At the end of the 
 
 provide a breakdown of exactly who did what within our commits on Github.
 
-## NEED TO LEARN:
+## Need to Learn:
 
 ● CSS polygons
 
