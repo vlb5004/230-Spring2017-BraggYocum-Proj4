@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  -webkit-perspective: 1000;
+}
+
+.container {
+    position: fixed;
+    z-index: 20000;
+    width: 100%;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: lightseagreen;
+}
+
+/*corner menu */
+.menu, .menu-bg, .menu-burger {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 100%;
+  right: 25px;
+  top: 25px;
+}
+
+.left{
+    display: flex;
+}
+
+.right{
+    display: flex;
+}
+
+/*wonders top left */
+.title{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-family: Pacifico, sans-serif;
+    text-decoration: none;
+}
+
+.title2{
+    font-size: 40px;
+    margin:  0 auto;
+    color: #424141;
+    font-family: Pacifico, sans-serif;
+    margin-bottom: 40px;
+}
+
+/*hamburgern menu */
+.menu-bg {
+  background: white;
+  pointer-events: none;
+  transition: .3s;
+  right: 50px;
+  top: 50px;
+  transform: translate3d(50%, -50%, 0);
+  transform-origin: center center;
+  box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);      
+}
+
+.menu-bg.fs {
+  transform: translate3d(50%, -50%, 0);
+  width: 300vw;
+  height: 300vw;
+}
+
+.menu-burger {
+  color: gray;
+  padding-top: 11px;
+  -webkit-user-select: none;
+  cursor: pointer;
+  transition: .4s;
+  transform-origin: center;
+}
+
+.menu-burger.fs {
+  transform: rotate(-180deg) translateY(10px);
+}
+
+.menu-items {
+  position: absolute;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: gray;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: .4s;
+  margin-top: 0px;
+  font-weight: 300;
+  transform: translateY(-200%);
+  pointer-events: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    margin:  0 auto;
+}
+
+.menu-items a{
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    color: gray;
+    background-color: white;
+    transition: all .2s ease;
+}
+
+.menu-items a:hover{
+    background-color: #efefef;
+}
+
+.menu-items links {
+  transition: 1s;
+  opacity: 0;
+  margin-top: 0px;
+}
+
+.menu-items.fs {
+  transform: translateY(0);
+  pointer-events: auto;
+  opacity: 1;
+}
+.menu-items.fs links {
+  opacity: 1;
+  margin-top: 75px;
+}
+
+/*screen content */
+.content {
+  padding: 100px 50px;
+}
+
+.content h1 {
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#screen1{
+    background-color: red;
+}
+
+.circle{
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border-radius: 400px;
+    position: absolute;
+}
+
+#screen2{
+    background-color: orange;
+}
+
+#screen3{
+    background-color: yellow;
+}
+
+.area1, .area2, .area3{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.area2, .area3{
+    margin-top: -200px;
+}
+
+.image1, .image2, .image3{
+    background-image: url(../images/image1.png);
+    height: 600px;
+    width: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+
+.image2{
+    background-image: url(../images/image2.png);
+}
+
+.image3{
+     background-image: url(../images/image3.png);
+}
+
+
+
