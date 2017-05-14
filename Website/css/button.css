@@ -1,98 +1,132 @@
-.bottom-buttons{
-    height: 100px;
-    width: 600px;
-    margin-left:30px;
-    margin-top: 40px;
-    
-    
+.buttons{
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
 }
 
-.wonders{
-    background-color: white;
-    width: 120px;
-    height: 120px;
+.info{
+    width: 90px;
+    height: 90px;
     border-radius: 1000px;
-    box-shadow: 2px 2px 15px black;
-    text-align: center;
-    -bottom: 10px;
+    background-color: white;
+    float: left;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2); 
 }
 
-.wonders h1{
-    padding-top: 40px;
-    font-family: 'Pacifico', cursive;
-    font-weight: 600;
-    font-size: 2em;
-}
-
-.graph, .stat, .location{
+.fact{
     width: 60px;
     height: 60px;
-    background-color: white;
-    box-shadow: 2px 2px 15px black;
     border-radius: 1000px;
-    transition-duration: 2s;
-}
-
-.graph{
-    margin-bottom: -128px;
-    margin-left: 130px;
-}
-
-.graph-icon{
-    height: 30px;
-    width: 30px;
-    background-image: url(../images/stats.png);
-    background-size: cover;
-    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 32px;
+    margin-left: 38px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
     
 }
+
 .location{
-    margin-bottom: -125px;
-   margin-left: 135px; 
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: white;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
 }
-
-.location-icon{
-    height: 40px;
-    width: 40px;
-    background-image: url(../images/location.png);
-    background-size: cover;
-    margin: 0 auto;
-}
-
 .stat{
-    margin-bottom: 0px;
-    margin-left: 100px;
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: white;
+    margin-left: 134px;
+    margin-top: -12px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
 
 }
 
-.stat-icon{
-    height: 30px;
-    width: 30px;
-    background-image: url(../images/book.png);
-    background-size: cover;
-    margin: 0 auto;
+.text-hover{
+    display: none;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-family: sans-serif;
+    font-size: .9em;
 }
 
-.graph:hover{
-    border-radius: 50px;
-    width: 300px;
-    transition-duration: 2s;
+/*   hovers */
+
+.fact:hover{
+    width: 500px;
 }
 
-.location:hover{
-    border-radius: 50px;
-    width: 300px;
-    transition-duration: 2s;
+.location:hover {
+    width: 500px;
 }
 
 .stat:hover{
-    border-radius: 50px;
-    width: 300px;
-    transition-duration: 2s;
+    width: 500px;
 }
 
-.margin-box{
-    padding-top: 15px;
+.info h1{
+    text-align: center;
+    margin-top: 32px;
+    font-family: Pacifico, sans-serif;
+    font-size: 1.5em;
 }
+
+.img-margin{
+    padding-top: 16px;
+}
+
+.fact-img{
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/book.png);
+    margin-left: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.location-img{
+    height: 30px;
+    width: 24px;
+    background-image: url(../images/location.png);
+    margin-left: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stat-img{
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/stats.png);
+    margin-left: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-hover{
+    text-align: center;
+    margin-top: -26px;
+}
+
+.fact:hover .text-hover{
+    display: block;
+}
+
+.location:hover .text-hover{
+    display: block;
+}
+
+.stat:hover .text-hover{
+    display: block;
+}
+
+
+
+
+
+
 
 

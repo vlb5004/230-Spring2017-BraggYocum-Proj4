@@ -22,7 +22,7 @@ body, html {
   width: 50px;
   height: 50px;
   font-size: 30px;
-  text-align: center;
+  text-align: center; 
   border-radius: 100%;
   right: 25px;
   top: 25px;
@@ -140,65 +140,126 @@ body, html {
   margin-top: 75px;
 }
 
-/*screen content */
-.content {
-  padding: 100px 50px;
-}
-
-.content h1 {
-  font-size: 14px;
-  font-weight: 100;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
-#screen1{
-    background-color: red;
-}
-
-.circle{
+.area{
     margin: 0 auto;
-    height: 600px;
-    width: 600px;
-    background-color: white;
-    border-radius: 400px;
+    width: 550px;
+    height: 550px;
+    margin-bottom: 50px;
+    position:  relative;
+}
+
+.area .circle{
+    margin: 0 auto;
+    width: 550px;
+    height: 550px;
+    border-radius: 2000px;
+    z-index: 1000;
     position: absolute;
+    top: calc(50% - 275px);
+    left: calc(50% - 275px);
 }
 
-#screen2{
-    background-color: orange;
+.wonder-name{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
-#screen3{
-    background-color: yellow;
+.wonder-name2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Pacifico';
 }
 
-.area1, .area2, .area3{
-    margin: 0 auto;
-    width: 600px;
-}
-
-.area2, .area3{
-    margin-top: -200px;
-}
-
-.image1, .image2, .image3{
-    background-image: url(../images/image1.png);
-    height: 600px;
-    width: 400px;
+.image1,
+.image2,
+.image3 {
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    opacity: 0;
+}
+
+
+.image1 {
+    background-image: url(../images/lighthouse.svg);
+    height: 500px;
+    width: 500px;
+    z-index: 2000;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    opacity: 0;
 }
 
 .image2{
-    background-image: url(../images/image2.png);
+    background-image: url(../images/temple.svg);
+    height: 600px;
+    width: 600px;
+    z-index: 2000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
 }
 
 .image3{
-     background-image: url(../images/image3.png);
+    background-image: url(../images/image3.png);
+    height: 500px;
+    width: 500px;
+    z-index: 2000;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+}
+
+.circle1{
+    background-color: #2a67a4;
+}
+
+#screen1{
+    background-color: #3c81c7;
+}
+
+
+.circle2{
+    background-color: #9b26a5;
+}
+
+#screen2{
+    background-color: #b438bf;
+}
+
+.circle3{
+    background-color: #dd5c10;
+}
+
+#screen3{
+    background-color: #ed742c;
+}
+
+@keyframes show {
+    0% {opacity: 0; transform: translateY(200px);}
+    100% {opacity: 1;  transform: translateY(0px);}
+}
+
+.visible {
+    animation-name: show;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 
 
