@@ -2,6 +2,7 @@
    position: absolute;
    bottom: 30px;
    left: 30px;
+    z-index: 3000;
 }
 
 .info{
@@ -18,7 +19,7 @@
     height: 60px;
     border-radius: 1000px;
     background-color: white;
-    margin-bottom: 32px;
+    margin-bottom: 34px;
     margin-left: 38px;
     box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
     
@@ -39,8 +40,8 @@
     height: 60px;
     border-radius: 1000px;
     background-color: white;
-    margin-left: 134px;
-    margin-top: -12px;
+    margin-left: 136px;
+    margin-top: -10px;
     box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
 
 }
@@ -109,6 +110,7 @@
 .text-hover{
     text-align: center;
     margin-top: -26px;
+    opacity: 1;
 }
 
 .fact:hover .text-hover{
