@@ -1,0 +1,134 @@
+.buttons{
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+    z-index: 3000;
+}
+
+.info{
+    width: 90px;
+    height: 90px;
+    border-radius: 1000px;
+    background-color: white;
+    float: left;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2); 
+}
+
+.fact{
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: white;
+    margin-bottom: 34px;
+    margin-left: 38px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
+    
+}
+
+.location{
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: white;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
+}
+.stat{
+    width: 60px;
+    height: 60px;
+    border-radius: 1000px;
+    background-color: white;
+    margin-left: 136px;
+    margin-top: -10px;
+    box-shadow: 6px 7px 7px -4px rgba(0,0,0,0.2);  
+
+}
+
+.text-hover{
+    display: none;
+    padding-right: 45px;
+    padding-left: 45px;
+    font-family: sans-serif;
+    font-size: .9em;
+}
+
+/*   hovers */
+
+.fact:hover{
+    width: 500px;
+}
+
+.location:hover {
+    width: 500px;
+}
+
+.stat:hover{
+    width: 500px;
+}
+
+.info h1{
+    text-align: center;
+    margin-top: 32px;
+    font-family: Pacifico, sans-serif;
+    font-size: 1.5em;
+}
+
+.img-margin{
+    padding-top: 16px;
+}
+
+.fact-img{
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/book.png);
+    margin-left: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.location-img{
+    height: 30px;
+    width: 24px;
+    background-image: url(../images/location.png);
+    margin-left: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stat-img{
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/stats.png);
+    margin-left: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-hover{
+    text-align: center;
+    margin-top: -26px;
+    opacity: 1;
+}
+
+.fact:hover .text-hover{
+    display: block;
+}
+
+.location:hover .text-hover{
+    display: block;
+}
+
+.stat:hover .text-hover{
+    display: block;
+}
+
+
+
+
+
+
+
+
